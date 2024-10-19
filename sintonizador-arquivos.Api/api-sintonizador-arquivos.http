@@ -1,0 +1,6 @@
+@api_sintonizador_arquivos_HostAddress = http://localhost:5296
+
+GET {{api_sintonizador_arquivos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

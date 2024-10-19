@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sintonizador-arquivos.Api", "sintonizador-arquivos.Api\sintonizador-arquivos.Api.csproj", "{4AACD68F-4B43-4CFC-833C-C169AE1491DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sintonizador-arquivos.Core", "sintonizador-arquivos.Core\sintonizador-arquivos.Core.csproj", "{79A4771A-61FF-4D19-B205-640987811EAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sintonizador-arquivos.CrossCutting", "sintonizador-arquivos.CrossCutting\sintonizador-arquivos.CrossCutting.csproj", "{88CFEDE4-90D4-41B2-86AD-20BD9F446695}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sintonizador-arquivos.Infrastructure", "sintonizador-arquivos.Infrastructure\sintonizador-arquivos.Infrastructure.csproj", "{92CD2A84-2A13-4B5A-AB3F-0A0D55806530}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88CFEDE4-90D4-41B2-86AD-20BD9F446695} = {88CFEDE4-90D4-41B2-86AD-20BD9F446695}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sintonizador-arquivos.Aplication", "sintonizador-arquivos.Service\sintonizador-arquivos.Aplication.csproj", "{53E5FD24-A46B-451E-BDFB-092CEA0902BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AACD68F-4B43-4CFC-833C-C169AE1491DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AACD68F-4B43-4CFC-833C-C169AE1491DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AACD68F-4B43-4CFC-833C-C169AE1491DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AACD68F-4B43-4CFC-833C-C169AE1491DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A4771A-61FF-4D19-B205-640987811EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A4771A-61FF-4D19-B205-640987811EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A4771A-61FF-4D19-B205-640987811EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A4771A-61FF-4D19-B205-640987811EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CFEDE4-90D4-41B2-86AD-20BD9F446695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CFEDE4-90D4-41B2-86AD-20BD9F446695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CFEDE4-90D4-41B2-86AD-20BD9F446695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CFEDE4-90D4-41B2-86AD-20BD9F446695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CD2A84-2A13-4B5A-AB3F-0A0D55806530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CD2A84-2A13-4B5A-AB3F-0A0D55806530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CD2A84-2A13-4B5A-AB3F-0A0D55806530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CD2A84-2A13-4B5A-AB3F-0A0D55806530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E5FD24-A46B-451E-BDFB-092CEA0902BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E5FD24-A46B-451E-BDFB-092CEA0902BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E5FD24-A46B-451E-BDFB-092CEA0902BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E5FD24-A46B-451E-BDFB-092CEA0902BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E471020-508A-42F9-8355-5587174541B1}
+	EndGlobalSection
+EndGlobal
